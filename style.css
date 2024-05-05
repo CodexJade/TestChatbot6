@@ -133,17 +133,17 @@ a:hover{
 .features p{
     line-height: 30px;
 }
-footer {
+.contacts {
     background: #ce100b;
     height: 516px;
     overflow: hidden;
 }
-footer img{
+.contacts img{
     position: relative;
     top: 3vh;
     width: 500px;
 }
-footer p{
+.contacts p{
     position: relative;
     top: 3vh;
     left: 15vh;
@@ -151,7 +151,7 @@ footer p{
     color: white;
     font-size: 20px;
 }
-footer h2{
+.contacts h2{
     position: relative;
     top: 10vh;
     left: 15vh;
@@ -160,16 +160,29 @@ footer h2{
     color: white;
     font-size: 30px;
 }
-.voiceflow{
+.contacts .voiceflow{
     width: 300px;
     position: absolute;
     left: 50vh;
     top: 325vh;
 }
-footer iframe{
+.contacts iframe{
     position: relative;
-    bottom: 340px;
-    left: 900px;
+    left: 130vh;
+    bottom: 57vh;
+}
+p.one{
+    word-spacing: 100px;
+}
+p.two{
+    word-spacing: 10px;
+}
+p.three{
+    position: absolute;
+    top: 310vh;
+    left: 345px;
+    margin-right: 600px;
+    line-height: 30px;
 }
 @media (max-width: 952px){
     nav{
@@ -256,29 +269,77 @@ footer iframe{
     }
     .contacts{
         position: relative;
-        bottom: -400vh;
+        bottom: -125vh;
     }
 }
-@media (max-width: 549px){
-    label.logo img{
-        width: 50%;
-    }
+@media (max-width: 500px){
     nav{
-        width: 200%;
-        height: 200px;
+        width: 150%;
     }
     .yellow_stripe{
-        width: 200%;
+        width: 150%;
+    }
+    .navbar .menu-list{
+        position: fixed;
+        width: 100%;
+        height: 200vh;
+        background: #f65b55;
+        top: 0;
+        left: -100%;
+        line-height: 10px;
+        text-align: center;
+        transition: all .5s ease;
+        z-index: 1000;
+    }
+    .navbar .menu-list.active{
+        left: 0%;
     }
     .home img{
-        width: 200%;
+        width: 150%;
+    }
+    .home h1{
+        top: 450px;
+        left: 50px;
     }
     .home p{
-        top: 100vh;
+        line-height: 40px;
+        font-size: 25px;
+        left: 160px;
+        margin: -200px -100px;
     }
     .about{
         position: relative;
-        bottom: -110vh;
+        bottom: -115vh;
+        width: 150%;
         height: 100%;
+    }
+    .contacts{
+        width: 150%;
+        height: 130vh;
+    }
+    .contacts h2{
+        left: 7vh;
+        top: 120px;
+    }
+    p.one{
+        left: 50px;
+        word-spacing: 100px;
+    }
+    p.two{
+        left: 50px;
+        word-spacing: 10px;
+    }
+    p.three{
+        position: absolute;
+        top: 30.5vh;
+        left: 303px;
+        margin-right: 40px;
+        line-height: 30px;
+    }
+    .contacts .voiceflow{
+        width: 300px;
+        position: absolute;
+        left: 30vh;
+        top: 46vh;
     }
 }
