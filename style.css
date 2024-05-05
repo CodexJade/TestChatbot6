@@ -52,7 +52,6 @@ a:hover{
     position: absolute;
     left: 115vh;
     top: 30vh;
-    font-family: 'Poppins', sans-serif;
     font-size: 10vh;
     line-height: 80px;
     margin: 5px 100px;
@@ -90,7 +89,6 @@ a:hover{
 .about h1{
     text-align: center;
     font-size: 10vh;
-    font-family: 'Poppins', sans-serif;
     color: white;
     padding: 2rem 0 1rem 0;
     margin-bottom: 5rem;
@@ -156,7 +154,6 @@ a:hover{
     top: 10vh;
     left: 15vh;
     line-height: 70px;
-    font-family: 'Poppins', sans-serif;
     color: white;
     font-size: 30px;
 }
@@ -204,7 +201,6 @@ p.three{
         position: absolute;
         left: 100px;
         top: 75vh;
-        font-family: 'Poppins', sans-serif;
         font-size: 10vh;
         line-height: 80px;
         margin: 5px 0px;
@@ -274,10 +270,10 @@ p.three{
 }
 @media (max-width: 500px){
     nav{
-        width: 150%;
+        width: 170%;
     }
     .yellow_stripe{
-        width: 150%;
+        width: 170%;
     }
     .navbar .menu-list{
         position: fixed;
@@ -295,7 +291,7 @@ p.three{
         left: 0%;
     }
     .home img{
-        width: 150%;
+        width: 170%;
     }
     .home h1{
         top: 450px;
@@ -311,7 +307,7 @@ p.three{
     .about{
         position: relative;
         bottom: -170vh;
-        width: 150%;
+        width: 170%;
         height: 100%;
     }
     .features h2{
@@ -324,8 +320,8 @@ p.three{
     .contacts{
         position: relative;
         bottom: -189vh;
-        width: 150%;
-        height: 130vh;
+        width: 170%;
+        height: 200vh;
     }
     .contacts h2{
         left: 11vh;
@@ -355,4 +351,17 @@ p.three{
         left: 50vh;
         top: 82vh;
     }
+    .contacts iframe{
+        top: 35vh;
+        left: 50px;
+    }
+}
+@media (max-width: 414px){
+    .about{
+        bottom: -200vh;
+    }
+    .contacts{
+        bottom: -218vh;
+    }
+
 }
