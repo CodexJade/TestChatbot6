@@ -358,14 +358,14 @@ p.three{
 }
 @media (min-width: 300px){
     nav{
-        width: 170%;
+        width: 150%;
     }
     .about{
         bottom: -220vh;
     }
     .contacts{
         bottom: -238vh;
-        width: 170%;
+        width: 150%;
     }
     .contacts iframe{
         width: 400px;
