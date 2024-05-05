@@ -356,12 +356,19 @@ p.three{
         left: 50px;
     }
 }
-@media (max-width: 414px){
+@media (min-width: 300px){
+    nav{
+        width: 170%;
+    }
     .about{
-        bottom: -200vh;
+        bottom: -220vh;
     }
     .contacts{
-        bottom: -218vh;
+        bottom: -238vh;
+        width: 170%;
     }
-
+    .contacts iframe{
+        width: 400px;
+        height: 450px;
+    }
 }
