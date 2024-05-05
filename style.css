@@ -299,27 +299,40 @@ p.three{
     }
     .home h1{
         top: 450px;
-        left: 50px;
+        left: 265px;
+        margin: 0px -200px;
     }
     .home p{
         line-height: 40px;
         font-size: 25px;
-        left: 160px;
-        margin: -200px -100px;
+        left: 215px;
+        margin: 70px -150px;
     }
     .about{
         position: relative;
-        bottom: -115vh;
+        bottom: -170vh;
         width: 150%;
         height: 100%;
     }
+    .features h2{
+        font-size: 40px;
+    }
+    .features p{
+        font-size: 30px;
+        line-height: 50px;
+    }
     .contacts{
+        position: relative;
+        bottom: -189vh;
         width: 150%;
         height: 130vh;
     }
     .contacts h2{
-        left: 7vh;
+        left: 11vh;
         top: 120px;
+    }
+    .contacts img{
+        left: 10vh;
     }
     p.one{
         left: 50px;
@@ -331,7 +344,7 @@ p.three{
     }
     p.three{
         position: absolute;
-        top: 30.5vh;
+        top: 50vh;
         left: 303px;
         margin-right: 40px;
         line-height: 30px;
@@ -339,7 +352,7 @@ p.three{
     .contacts .voiceflow{
         width: 300px;
         position: absolute;
-        left: 30vh;
-        top: 46vh;
+        left: 50vh;
+        top: 82vh;
     }
 }
