@@ -270,7 +270,7 @@ p.three{
 }
 @media (max-width: 500px){
     nav{
-        width: 150%;
+        width: 170%;
     }
     .yellow_stripe{
         width: 170%;
