@@ -270,7 +270,7 @@ p.three{
 }
 @media (max-width: 500px){
     nav{
-        width: 170%;
+        width: 150%;
     }
     .yellow_stripe{
         width: 170%;
@@ -354,21 +354,5 @@ p.three{
     .contacts iframe{
         top: 35vh;
         left: 50px;
-    }
-}
-@media (min-width: 300px){
-    nav{
-        width: 150%;
-    }
-    .about{
-        bottom: -220vh;
-    }
-    .contacts{
-        bottom: -238vh;
-        width: 150%;
-    }
-    .contacts iframe{
-        width: 400px;
-        height: 450px;
     }
 }
